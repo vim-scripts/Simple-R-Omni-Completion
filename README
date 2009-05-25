@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2656
+
+Scans the current buffer for R identifiers and library() calls, offers autocompletion, first on the identifiers in the current file, than on the ones in the library.
+Identifiers within the current file are ordered by distance to the current line, standoffs are resolved by first suggesting those before the current line.
+
+See also vimscript #2628 for a different approach to this.
